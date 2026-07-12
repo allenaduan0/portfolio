@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ACCA logo">
+  <rect width="64" height="64" rx="15" fill="#07090f"/>
+  <path d="M8 45 18 18l10 27M12 34h12M35 21c-9-7-16 1-16 11s7 17 16 11M55 21c-9-7-16 1-16 11s7 17 16 11M42 45l10-27 7 18M47 34h10" fill="none" stroke="#f8fafc" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="56" cy="47" r="3.5" fill="#b9ff38"/>
+</svg>

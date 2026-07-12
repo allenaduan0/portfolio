@@ -8,6 +8,7 @@
       content="Allen Christopher — Software Engineer in Dubai creating robust, thoughtful digital products."
     />
     <meta name="theme-color" content="#07090f" />
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}" />
     <meta property="og:title" content="Allen Christopher — Software Engineer" />
     <meta
       property="og:description"
