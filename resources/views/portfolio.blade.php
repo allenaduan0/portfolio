@@ -558,22 +558,25 @@
                             <span class="font-mono text-xs text-slate-500">PAYMENT SYSTEM</span>
                         </div>
                         <h3 class="mt-6 text-3xl font-extrabold sm:text-4xl">
-                            Payment Integration using Stripe
+                            Stripe Payment Operations Platform
                         </h3>
                         <p class="mt-5 max-w-xl leading-8 text-slate-400">
-                            A secure, end-to-end payment solution that gives customers a
-                            smooth checkout experience while keeping transactions reliable
-                            and easy to manage. The integration handles payment sessions,
-                            API communication, webhook events, and persistent transaction
-                            records through a scalable Laravel backend.
+                            A secure, webhook-driven payment platform built with Laravel and Stripe Checkout. It creates
+                            idempotent transaction records, verifies signed Stripe events server-side, processes
+                            payments asynchronously, and atomically posts completed transactions to a balanced
+                            double-entry ledger. The platform also includes receipt processing, refund handling,
+                            subscription lifecycle events, reconciliation controls, and an administrative
+                            payment-operations dashboard.
                         </p>
                         <div class="mt-8 flex flex-wrap gap-2 font-mono text-xs">
                             <span class="rounded-full border border-white/10 px-4 py-2">Laravel</span>
-                            <span class="rounded-full border border-white/10 px-4 py-2">Laravel Cashier</span>
-                            <span class="rounded-full border border-white/10 px-4 py-2">PostgreSQL</span>
                             <span class="rounded-full border border-white/10 px-4 py-2">Stripe Checkout</span>
-                            <span class="rounded-full border border-white/10 px-4 py-2">JWT Authentication</span>
-                            <span class="rounded-full border border-white/10 px-4 py-2">RESTful API</span>
+                            <span class="rounded-full border border-white/10 px-4 py-2">Stripe PHP SDK</span>
+                            <span class="rounded-full border border-white/10 px-4 py-2">Stripe Webhooks</span>
+                            <span class="rounded-full border border-white/10 px-4 py-2">Laravel Sanctum</span>
+                            <span class="rounded-full border border-white/10 px-4 py-2">Laravel Queues</span>
+                            <span class="rounded-full border border-white/10 px-4 py-2">PostgreSQL / Neon</span>
+                            <span class="rounded-full border border-white/10 px-4 py-2">RESTful APIs</span>
                             <span class="rounded-full border border-white/10 px-4 py-2">Tailwind CSS</span>
                         </div>
                         <div class="mt-9 flex flex-wrap gap-3">
