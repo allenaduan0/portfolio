@@ -617,7 +617,7 @@
                             <span
                                 class="absolute -left-[33px] top-1 size-3 rounded-full bg-acid shadow-[0_0_15px_#b9ff38] sm:-left-[53px]"></span>
                             <p class="font-mono text-xs text-acid">
-                                2026 — PRESENT · DUBAI
+                                2026 — PRESENT · DUBAI - UAE
                             </p>
                             <h3 class="mt-3 text-2xl font-bold">Software Engineer</h3>
                             <p class="mt-3 leading-7 text-slate-400">
@@ -629,7 +629,7 @@
                             <span
                                 class="absolute -left-[33px] top-1 size-3 rounded-full border-2 border-violet bg-ink sm:-left-[53px]"></span>
                             <p class="font-mono text-xs text-violet-400">
-                                2022 — 2026 · DUBAI
+                                2022 — 2026 · DUBAI - UAE
                             </p>
                             <h3 class="mt-3 text-2xl font-bold">Web Developer</h3>
                             <p class="mt-3 leading-7 text-slate-400">
@@ -641,7 +641,7 @@
                             <span
                                 class="absolute -left-[33px] top-1 size-3 rounded-full border-2 border-white/40 bg-ink sm:-left-[53px]"></span>
                             <p class="font-mono text-xs text-slate-500">
-                                2020 — 2022 · PHILIPPINES
+                                2020 — 2022 · MANILA - PHILIPPINES
                             </p>
                             <h3 class="mt-3 text-2xl font-bold">Software Developer</h3>
                             <p class="mt-3 leading-7 text-slate-400">
@@ -654,7 +654,7 @@
                             <span
                                 class="absolute -left-[33px] top-1 size-3 rounded-full border-2 border-white/40 bg-ink sm:-left-[53px]"></span>
                             <p class="font-mono text-xs text-slate-500">
-                                2019 — 2020 · PHILIPPINES
+                                2019 — 2020 · MANILA - PHILIPPINES
                             </p>
                             <h3 class="mt-3 text-2xl font-bold">Network Engineer</h3>
                             <p class="mt-3 leading-7 text-slate-400">
@@ -667,7 +667,7 @@
                             <span
                                 class="absolute -left-[33px] top-1 size-3 rounded-full border-2 border-white/40 bg-ink sm:-left-[53px]"></span>
                             <p class="font-mono text-xs text-slate-500">
-                                2018 — 2019 · PHILIPPINES
+                                2018 — 2019 · MANILA - PHILIPPINES
                             </p>
                             <h3 class="mt-3 text-2xl font-bold">IT Staff</h3>
                             <p class="mt-3 leading-7 text-slate-400">
