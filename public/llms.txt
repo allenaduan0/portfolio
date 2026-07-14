@@ -1,0 +1,21 @@
+# Allen Christopher Aduan
+
+> Official portfolio of Allen Christopher Aduan, a software engineer based in Dubai, United Arab Emirates.
+
+Allen builds production-ready web applications, APIs, payment systems, financial ledgers, and responsive digital products. His primary technologies include Laravel, PHP, PostgreSQL, JavaScript, React.js, and Tailwind CSS.
+
+## Selected work
+
+- [Stripe Payment Operations Platform](https://payments.allenaduan.com/): A Laravel and Stripe platform featuring signed webhooks, asynchronous payment processing, refunds, subscriptions, reconciliation, and double-entry ledger posting.
+- [LedgerFlow](https://ledgerflow.allenaduan.com/login/): A Laravel digital wallet and immutable double-entry ledger with atomic transfers, idempotent APIs, audit trails, and reconciliation controls.
+
+## Official profiles
+
+- [Portfolio](https://allenaduan.com/)
+- [GitHub](https://github.com/allenaduan0)
+- [LinkedIn](https://linkedin.com/in/allen-christopher-aduan-522b50240)
+
+## Contact
+
+- Email: business.allen.dev@gmail.com
+- Location: Dubai, United Arab Emirates

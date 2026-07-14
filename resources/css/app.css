@@ -1,12 +1,182 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
-@source "../**/*.blade.php";
-@source "../**/*.js";
-@source "../**/*.vue";
+@source '../**/*.blade.php';
+@source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: 'Manrope', sans-serif;
+    --font-mono: 'DM Mono', monospace;
+    --color-ink: #07090f;
+    --color-acid: #b9ff38;
+    --color-violet: #8b5cf6;
+    --shadow-glow: 0 0 80px rgba(185, 255, 56, .16);
 }
+
+:root {
+        --mx: 50%;
+        --my: 50%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    ::selection {
+        background: #b9ff38;
+        color: #07090f;
+    }
+
+    .noise {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.4'/%3E%3C/svg%3E");
+    }
+
+    .grid-bg {
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+            linear-gradient(90deg,
+                rgba(255, 255, 255, 0.045) 1px,
+                transparent 1px);
+        background-size: 54px 54px;
+    }
+
+    .cursor-glow {
+        background: radial-gradient(500px circle at var(--mx) var(--my),
+                rgba(185, 255, 56, 0.09),
+                transparent 55%);
+    }
+
+    .reveal {
+        opacity: 0;
+        transform: translateY(28px);
+        transition:
+            opacity 0.8s cubic-bezier(0.2, 0.7, 0.2, 1),
+            transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+    }
+
+    .reveal.show {
+        opacity: 1;
+        transform: none;
+    }
+
+    .marquee {
+        animation: marquee 25s linear infinite;
+    }
+
+    .float {
+        animation: float 5s ease-in-out infinite;
+    }
+
+    .orbit {
+        animation: spin 16s linear infinite;
+    }
+
+    .blink {
+        animation: blink 1s step-end infinite;
+    }
+
+    .pulse-ring {
+        animation: pulse 2.6s ease-out infinite;
+    }
+
+    .portrait-wrap {
+        transform-style: preserve-3d;
+        transition: transform 0.18s ease-out;
+    }
+
+    .portrait-img {
+        transform: translateZ(28px);
+    }
+
+    .portrait-tag {
+        transform: translateZ(55px);
+    }
+
+    .story-card img {
+        transition:
+            transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1),
+            filter 0.8s ease;
+    }
+
+    .story-card:hover img {
+        transform: scale(1.055);
+        filter: saturate(1.15);
+    }
+
+    .story-card:nth-child(2) {
+        transform: translateY(56px);
+    }
+
+    @keyframes marquee {
+        to {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes float {
+        50% {
+            transform: translateY(-13px);
+        }
+    }
+
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.85);
+            opacity: 0.65;
+        }
+
+        100% {
+            transform: scale(1.6);
+            opacity: 0;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        * {
+            scroll-behavior: auto !important;
+        }
+
+        .reveal {
+            opacity: 1;
+            transform: none;
+        }
+
+        .marquee,
+        .float,
+        .orbit,
+        .blink,
+        .pulse-ring {
+            animation: none;
+        }
+
+        .portrait-wrap {
+            transition: none;
+        }
+
+        .story-card img {
+            transition: none;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .story-card:nth-child(2) {
+            transform: none;
+        }
+    }
