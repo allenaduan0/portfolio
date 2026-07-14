@@ -580,8 +580,7 @@
                             <span class="rounded-full border border-white/10 px-4 py-2">Tailwind CSS</span>
                         </div>
                         <div class="mt-9 flex flex-wrap gap-3">
-                            <a href="https://lara-stripe-integration-production-hpccxv.laravel.cloud/" target="_blank"
-                                rel="noopener noreferrer"
+                            <a href="https://payments.allenaduan.com/" target="_blank" rel="noopener noreferrer"
                                 class="group/link inline-flex items-center gap-2 rounded-full bg-acid px-6 py-3 text-sm font-bold text-ink transition hover:-translate-y-1">
                                 View live project
                                 <span class="transition group-hover/link:translate-x-1">↗</span>
