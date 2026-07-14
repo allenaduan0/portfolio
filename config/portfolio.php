@@ -3,7 +3,7 @@
 return [
     'name' => 'Allen Christopher Aduan',
     'display_name' => 'Allen Christopher',
-    'title' => 'Software Engineer in Dubai',
+    'title' => 'Software Engineer in Dubai | PHP Developer | Web Developer | Laravel Developer | FullStack Developer | Backend Engineer',
     'description' => 'Portfolio of Allen Christopher Aduan, a Dubai-based software engineer building production-ready Laravel applications, APIs, payment systems, and digital products.',
     'email' => 'business.allen.dev@gmail.com',
     'location' => [
