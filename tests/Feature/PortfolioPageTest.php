@@ -19,7 +19,10 @@ class PortfolioPageTest extends TestCase
             ->assertSee('application/ld+json', escape: false)
             ->assertSee('https://schema.org', escape: false)
             ->assertSee('ProfilePage', escape: false)
-            ->assertSee('Who is Allen Christopher Aduan?');
+            ->assertSee('Who is Allen Christopher Aduan?')
+            ->assertSee('FinShield')
+            ->assertSee('Portfolio demonstration using synthetic data only.')
+            ->assertSee('lara-fin-shield');
 
         preg_match(
             '/<script type="application\/ld\+json">(.*?)<\/script>/s',

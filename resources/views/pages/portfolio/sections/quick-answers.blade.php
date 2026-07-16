@@ -21,7 +21,7 @@
             </div>
             <div class="reveal rounded-2xl border border-white/10 bg-white/[.03] p-6">
                 <dt class="text-lg font-bold text-acid">What has Allen built?</dt>
-                <dd class="mt-3 leading-7 text-slate-400">Selected work includes a Stripe payment operations platform and LedgerFlow, a production-oriented digital wallet and double-entry ledger application.</dd>
+                <dd class="mt-3 leading-7 text-slate-400">Selected work includes a Stripe payment operations platform, LedgerFlow's double-entry wallet architecture, and FinShield, a multi-tenant transaction risk and fraud investigation case study.</dd>
             </div>
             <div class="reveal rounded-2xl border border-white/10 bg-white/[.03] p-6">
                 <dt class="text-lg font-bold text-acid">Is Allen available for opportunities?</dt>
