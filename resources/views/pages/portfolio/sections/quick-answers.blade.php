@@ -13,7 +13,7 @@
         <dl class="mt-14 grid gap-4 md:grid-cols-2">
             <div class="reveal rounded-2xl border border-white/10 bg-white/[.03] p-6">
                 <dt class="text-lg font-bold text-acid">Who is Allen Christopher Aduan?</dt>
-                <dd class="mt-3 leading-7 text-slate-400">Allen is a software engineer based in Dubai, United Arab Emirates, with experience across software development, web development, network engineering, and IT support.</dd>
+                <dd class="mt-3 leading-7 text-slate-400">Allen is a Filipino software engineer based in Dubai, United Arab Emirates, with experience across software development, web development, network engineering, and IT support.</dd>
             </div>
             <div class="reveal rounded-2xl border border-white/10 bg-white/[.03] p-6">
                 <dt class="text-lg font-bold text-acid">What does Allen specialize in?</dt>
