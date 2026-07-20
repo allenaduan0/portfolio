@@ -129,10 +129,9 @@
     <title>@yield('title', $seo['title'].' | '.$seo['display_name'])</title>
 
     <script type="application/ld+json">
-    {
-        !!json_encode($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!
-    }
+    @json($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
     </script>
+
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('head')
